@@ -82,7 +82,6 @@ body {
     text-decoration: none;
     cursor: pointer;
     color: var(--light-blue);
-    font-weight: bold;
 }
 
 .summary-price-p p:first-of-type {
@@ -143,4 +142,14 @@ body {
 
 .attribution a {
     color: var(--three-color);
+}
+@media (min-width: 1440) {
+    .summary-container {
+    max-width: 44rem;
+    min-height: 70rem;
+    margin: 100px auto;
+    border-radius: 16px;
+    background-color: #fff;
+    text-align: center;
+}
 }
