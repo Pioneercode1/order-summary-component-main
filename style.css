@@ -143,13 +143,45 @@ body {
 .attribution a {
     color: var(--three-color);
 }
-@media (min-width: 1440) {
+
+@media (min-width: 1440px) {
     .summary-container {
-    max-width: 44rem;
-    min-height: 70rem;
-    margin: 100px auto;
-    border-radius: 16px;
-    background-color: #fff;
-    text-align: center;
-}
+        max-width: 30rem;
+        height: 50rem;
+    }
+
+    .order-summary h1 {
+        margin-block-end: 2.5rem;
+        margin-inline: 16px;
+    }
+
+    .order-summary p {
+        margin-block-end: 2.5rem;
+        margin-inline: 16px;
+    }
+
+    .summary-price {
+        height: 5rem;
+        margin: 32px auto;
+        padding: 20px;
+        border-radius: 12px;
+    }
+
+    .summary-price img {
+        width: 3.5rem;
+    }
+
+    .summary-buttons button:first-of-type {
+        padding: 1rem;
+        margin-block-start: 1.5rem;
+        border: none;
+        border-radius: 12px;
+    }
+
+    .summary-buttons button:nth-of-type(2) {
+        padding: 1rem;
+        margin-block-start: 1.5rem;
+        border-radius: 12px;
+    }
+
 }
