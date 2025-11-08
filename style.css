@@ -137,15 +137,6 @@ body {
     cursor: pointer;
 }
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: var(--three-color);
-}
-
 @media (min-width: 1440px) {
     .summary-container {
         width: clamp(400px, 50%, 30rem);
